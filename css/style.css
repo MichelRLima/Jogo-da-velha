@@ -89,19 +89,19 @@ section div.principal .q32{
 
 section.container_placar{
     display: flex;
-    width: 100%;
-    flex-direction: row-reverse;
+    width: 200px;
+    margin: 0 auto;
+    
 }
 
 section.container_placar .placarXimg{
     width: 50px;
     height: 50px;
     background-color: aliceblue;
-    border-top: 1px solid red;
-    border-right: 1px solid red;
-    border-bottom: 1px solid red;
+    
     background-image: url(../image/X.png);
     background-size: contain;
+    
 }
 
 section.container_placar .placarX{
@@ -110,15 +110,16 @@ section.container_placar .placarX{
     background-color: white;
     width: 50px;
     height: 50px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
-    border-left: 4px solid black;
+   
+    border-right: 4px solid rgb(0, 0, 0);
+    
 }
 
 section.container_placar .placarX h1{
     background-color: white;
     text-align: center;
     margin-top: 10px;
+    
    
 }
 
@@ -126,11 +127,9 @@ section.container_placar .placarYimg{
     width: 50px;
     height: 50px;
     background-color: aliceblue;
-    border-top: 1px solid red;
-    border-left: 1px solid red;
-    border-bottom: 1px solid red;
     background-image: url(../image/O.png);
     background-size: contain;
+    
 }
 
 section.container_placar .placarY{
@@ -139,9 +138,8 @@ section.container_placar .placarY{
     background-color: white;
     width: 50px;
     height: 50px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
     border-left: 4px solid black;
+    
 }
 
 
@@ -149,6 +147,7 @@ section.container_placar .placarY h1{
     background-color: white;
     text-align: center;
     margin-top: 10px;
+    
     
     
 }
