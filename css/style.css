@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+}
+
+section div.principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height:400px;
+   
+    margin: 120px auto;
+    
+
+
+}
+
+button.reset{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+section div.principal .q{
+    cursor: pointer;
+    width: 166px;
+    height: 166px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+section div.principal .q11{
+    border-right: 8px solid rgb(255, 255, 255);
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+section div.principal .q12{
+    border-right: 8px solid rgb(255, 255, 255);
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+section div.principal .q13{
+   
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+section div.principal .q21{
+    border-right: 8px solid rgb(255, 255, 255);
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+section div.principal .q22{
+   
+    border-right: 8px solid rgb(255, 255, 255);
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+section div.principal .q23{
+   
+    border-bottom: 8px solid rgb(255, 255, 255);
+}
+
+
+
+section div.principal .q31{
+    border-right: 8px solid rgb(255, 255, 255);
+  
+}
+
+section div.principal .q32{
+   
+    border-right: 8px solid rgb(255, 255, 255);
+    
+}
+
+
+section.container_placar{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+section.container_placar .placarXimg{
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    background-image: url(../image/X.png);
+    background-size: contain;
+}
+
+section.container_placar .placarX{
+   
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 4px solid black;
+}
+
+section.container_placar .placarX h1{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+section.container_placar .placarYimg{
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    background-image: url(../image/O.png);
+    background-size: contain;
+}
+
+section.container_placar .placarY{
+   
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 4px solid black;
+}
+
+
+section.container_placar .placarY h1{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+
