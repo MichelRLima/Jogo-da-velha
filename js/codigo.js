@@ -39,12 +39,15 @@ var p33 = "";
 //Iniciar placar com zero
 $(".TplacarY").text(placarY); 
 $(".TplacarX").text(placarX);
-
+$("#jogadorX").addClass("bordaJogador");
 
 $(document).ready(function(){
 
+    
+
     //quando algum quadrante de class "q" foi acionado, fazer a funcao:
     $(".q").click(function(){
+        
         
         //identificar o ID do quadrante que foi clicado e adiconado e validao
         validacao = $(this).attr("id");
@@ -203,6 +206,14 @@ $(document).ready(function(){
                 q33 = true; //nao permite mais acionar o mesmo quadrante
             }
         }
+
+        if(x_ou_o == true){
+            $("#jogadorX").addClass("bordaJogador");
+            $("#jogadorY").removeClass("bordaJogador");
+        }else{
+            $("#jogadorX").removeClass("bordaJogador"); 
+            $("#jogadorY").addClass("bordaJogador");
+        }
         //verificar possiveis resultados depois de 3 jogadas de x
         if(testarVitoria>=3){
             //validacao dos possiveis resultados de X
@@ -285,6 +296,8 @@ function reset(){
        
 
         $(".q").attr("src","image/P.png");
+        $("#jogadorX").addClass("bordaJogador");
+        $("#jogadorY").removeClass("bordaJogador");
         
 }
 //funcao para resetar o placar e todo o quadrante
@@ -318,4 +331,6 @@ function resetarPlacar(){
         placarY = "0";
         $(".TplacarY").text(placarY);
         $(".TplacarX").text(placarX);
+        $("#jogadorX").addClass("bordaJogador");
+        $("#jogadorY").removeClass("bordaJogador");
 }

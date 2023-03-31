@@ -5,11 +5,16 @@
     background-color:#000000;
 }
 
+section.container{
+    width: 100%;
+    height: 750px;
+}
+
 section div.principal{
     display: flex;
     flex-wrap: wrap;
     width: 500px;
-    height:400px;
+    height:500px;
    
     margin: 120px auto;
     
@@ -152,3 +157,6 @@ section.container_placar .placarY h1{
     
 }
 
+.bordaJogador{
+    border: 3px solid red;
+}
