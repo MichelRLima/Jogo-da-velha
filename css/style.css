@@ -186,14 +186,20 @@ section.container_placar .placarY h1{
 
 @media screen and (max-width: 660px) {
 
+    section.container{
+        height: 700px;
+    }
+
     section div.principal{
         
         width: 100%;
+       
         display: flex;
         flex-wrap: wrap;
     }
     section div.principal .q{
         width: 33%;
+        height: 33%;
     }
     
     section.container_placar{
