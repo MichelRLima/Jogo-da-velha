@@ -6,6 +6,26 @@
 }
 
 
+div.titulo{
+    width: 100%;
+    height: 40px;
+  
+}
+
+.titulo h1{
+    color: white;
+    text-align: center;
+}
+.titulo p{
+    color: white;
+    text-align: center;
+}
+
+.titulo a{
+    color: white;
+   
+}
+
 
 section.container{
     width: 100%;
@@ -161,4 +181,22 @@ section.container_placar .placarY h1{
 
 .bordaJogador{
     border: 3px solid red;
+}
+
+
+@media screen and (max-width: 660px) {
+
+    section div.principal{
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section div.principal .q{
+        width: 33%;
+    }
+    
+    section.container_placar{
+        margin: 0 auto;
+    }
 }
