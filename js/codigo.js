@@ -251,7 +251,7 @@ $(document).ready(function(){
                 reset();//resetar todos os quadrantes
             }
             else if(testarVitoria==9){
-                alert("Niguem ganhou");
+                alert("Nenhum ganhador");
                 reset();
             }
         }   
