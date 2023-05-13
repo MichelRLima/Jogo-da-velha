@@ -90,7 +90,7 @@ section div.principal .q21{
 }
 
 section div.principal .q22{
-   
+    box-sizing: border-box;
     border-right: 8px solid rgb(255, 255, 255);
     border-bottom: 8px solid rgb(255, 255, 255);
 }
@@ -199,7 +199,7 @@ section.container_placar .placarY h1{
     }
     section div.principal .q{
         width: 33%;
-        height: 33%;
+        height: 33.33%;
     }
     
     section.container_placar{
